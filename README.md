@@ -36,4 +36,4 @@ This is a simple tax calculator web application that calculates the overall inco
 Sameer hojage
 
 ## demo
-![screen-capture6-ezgif com-video-to-gif-converter](https://github.com/hojagesameer/hojagesameer/assets/162893940/6e1e5293-5f55-4260-920f-dc84755246e7)
+[screen-capture.webm](https://github.com/hojagesameer/TAX-_CALCULATOR/assets/162893940/c5c0f3bc-4c3a-4a82-aacf-d1fcf2f7adfe)
