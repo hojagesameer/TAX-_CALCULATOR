@@ -35,5 +35,5 @@ This is a simple tax calculator web application that calculates the overall inco
 
 [Sameer hojage]
 
-##demonstration
+## demo
 ![screen-capture6-ezgif com-video-to-gif-converter](https://github.com/hojagesameer/hojagesameer/assets/162893940/6e1e5293-5f55-4260-920f-dc84755246e7)
