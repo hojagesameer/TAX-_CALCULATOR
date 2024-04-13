@@ -1,0 +1,175 @@
+/* Styles for the tax calculator */
+/* Add your styles here */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.error-icon {
+  display: none;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins" sans-serif;
+  background: url(output.png);
+}
+select {
+  font-family: "Poppins" sans-serif;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0.403);
+  color: white;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+input {
+  font-family: "Poppins" sans-serif;
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+  background-color: rgba(0, 0, 0, 0.403);
+  color: white;
+  cursor: pointer;
+  border: 1px solid black;
+}
+select:hover {
+  background-color: rgba(0, 0, 0, 0.403);
+}
+
+option {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 2px 15px 12px;
+  margin: auto;
+  margin-top: 155px;
+  border: 1px solid rgba(255, 255, 255, 0.228);
+}
+button {
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-bottom: 100px;
+  width: 150px;
+  background-color: rgb(145, 163, 227);
+  color: black;
+  font-weight: 700;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.container h1 {
+  margin-top: 20px;
+  border-bottom: 1px solid purple;
+}
+
+.modal-content {
+  width: 1000px;
+  height: 150px;
+  background-color: white;
+  align-items: center;
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+  width: 150px;
+  background-color: rgb(228, 233, 227);
+  color: black;
+  font-weight: 700;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  text-align: center;
+  height: auto; /* Set height to auto to adjust based on content */
+}
+
+#modalText {
+  margin-bottom: 50px; /* Add margin to separate from the close button */
+}
